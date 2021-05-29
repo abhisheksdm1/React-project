@@ -1,0 +1,153 @@
+h1{
+	color: blue;
+}
+.one_header_parent{
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+
+}
+
+.one_header_child{
+
+	font-weight: 400;
+}
+.two_header_child{
+	position: relative;
+}
+
+.two_header_child img{
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	background-size: cover;
+    background-position: center;
+    padding: 3px;
+    left: 0;
+    top: 10%;
+    transform: translateX(-50%);
+
+    border-radius: 50%;
+}
+
+.two_header_child h3{
+	padding-left: 30px;
+	font-weight: 400;
+}
+
+hr{
+	/*box-sizing: border-box;*/
+	width: 79%;
+	color: #F0F0F0F0;
+}
+
+.article_one {
+	text-align: center;
+	width: 39%;
+	float: left;
+	margin-left: 15px;
+	margin-right: 15px;
+	border-right: 2px  solid #C8C8C8;
+	height: 90%;
+}
+.article_one img {
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+}
+
+.article_one h3{
+	font-weight: 500;
+	font-size: 25px;
+}
+
+.article_one p label {
+	color: #C8C8C8;
+}
+.article_one p{
+	font-weight: 400;
+	font-size: 25px;
+}
+
+.article_one h4{
+
+			font-weight: 400;
+			font-size: 25px;
+			color: #C8C8C8;
+}
+
+.article_one hr {
+	width: 90%;
+	color: #F0F0F0F0;
+}
+.article_two {
+	text-align: center;
+}
+
+.map {
+	text-align: center;
+	float: left;
+	margin: 20px;
+}
+
+.article_two p label {
+	color: #C8C8C8;
+}
+.article_two p{
+	font-weight: 400;
+	font-size: 25px;
+}
+
+.address
+{
+	margin: 4px;
+	font-weight: 400;
+	font-size: 25px;
+	margin-left: 30px;
+}
+
+.navbar{
+	width: 20%;
+	height: 140vh;
+	float:left;
+
+}
+.navbar_child
+{	
+	margin-left: 15px;
+	margin-top: 50px;
+	margin-right: 80px;
+	margin-bottom: 20px;
+	border-radius: 50px;
+	width: 90%;
+	height: 100vh;
+	background-color: blue;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  	justify-content:center;
+}
+.container_1{
+	text-align: left;
+	height: 5%;
+	font-size: 20PX;
+	
+
+}
+.container_2{
+	height: 5%;
+	font-size: 20PX;
+
+}
+.container_3{
+	height: 5%;
+	font-size: 20PX;
+
+}
+.container_4{
+	height: 5%;
+	font-size: 20PX;
+	
+
+}
